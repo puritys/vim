@@ -1,7 +1,6 @@
 source .vimrc_vundle.vim
 syntax on
 
-set encoding=utf-8
 set fileencodings=utf-8,big5,cp936,latin1 "encoding
 set termencoding=utf-8
 
