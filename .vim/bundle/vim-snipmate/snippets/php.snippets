@@ -1,0 +1,19 @@
+snippet if
+	if (${1}) {
+	}
+snippet c
+	class ${1:`vim_snippets#Filename()`}
+	{
+	    ${0}
+	}
+snippet class
+	<?php
+	    class ${1:`vim_snippets#Filename()`}  {
+		public function __construct() {
+	            ${0}
+	        }
+	    }
+snippet while
+	while (${1:/* condition */}) {
+	    ${2}
+	}

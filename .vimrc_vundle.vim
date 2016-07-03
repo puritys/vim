@@ -10,6 +10,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Raimondi/delimitMate'
 call vundle#end()
 
              
@@ -38,10 +39,10 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 set term=xterm-256color
 set termencoding=utf-8
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled=1
 let g:airline_theme='wombat'
-let g:airline#extensions#tabline#fnamemod=':t' "only show the filaname
-let g:airline#extensions#whitespace#enabled=0 "disable whitespace trailing detection
+"let g:airline#extensions#tabline#enabled=1
+"let g:airline#extensions#tabline#fnamemod=':t' "only show the filaname
+"let g:airline#extensions#whitespace#enabled=0 "disable whitespace trailing detection
 "buffer
 set hidden "hide unwritten buffer if new buffer is opened
 

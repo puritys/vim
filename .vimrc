@@ -1,4 +1,4 @@
-source .vimrc_vundle.vim
+source ~/.vimrc_vundle.vim
 syntax on
 
 set fileencodings=utf-8,big5,cp936,latin1 "encoding
@@ -9,7 +9,7 @@ set hlsearch "high light search
 set encoding=utf-8
 set nu
 set tabstop=4
-"set softtabstop=4
+set softtabstop=4
 set shiftwidth=4
 set et
 
@@ -19,7 +19,7 @@ set showcmd
 set bg=dark
 set backspace=2
 set foldmethod=marker
-set paste "不能放在 autoindent 之後， 否則autoindent will reset
+"set paste "不能放在 autoindent 之後， 否則autoindent will reset
 set t_Co=256 "設定成256色
 colorscheme white1
 
